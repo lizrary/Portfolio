@@ -8,7 +8,7 @@ body {
    background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
    background-repeat: no-repeat;
    background-size: 100%;
-  font-family: didact-gothic, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-shadow: 1em;
   margin: 20px;
@@ -21,7 +21,7 @@ div.image {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}​
+}
 
 
 
@@ -135,8 +135,7 @@ div.image {
     text-align: center;
     letter-spacing: 1px;
     display: table;
-        
-        border-style: solid;
+    border-style: solid;
     border-width: 10px;
     margin: 10px;
 
@@ -162,10 +161,9 @@ div.image {
 
 .about {
     width: 100%;
-  
     padding-top: 10%;
     border-width: 10px;
-        border-style: solid;
+    border-style: solid;
 }
 
 .whatIDo {
@@ -174,8 +172,8 @@ div.image {
     text-align: center;
     letter-spacing: 1px;
     display: table;
-      border-width: 10px;
-        border-style: solid;
+    border-width: 10px;
+    border-style: solid;
     margin: 10px;
 }
 
@@ -225,7 +223,7 @@ body {
    background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
    background-repeat: no-repeat;
    background-size: 100%;
-  font-family: didact-gothic, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-shadow: 1em;
   margin: 20px;
@@ -245,7 +243,7 @@ body {
     }
 
     .menuDrop {
-        font-family: 'Orbitron', sans-seri;
+        font-family: 'Roboto', sans-serif;
         text-align: right;
     }
 
