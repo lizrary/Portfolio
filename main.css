@@ -110,7 +110,9 @@ nav {
   margin: 0%;
 }
 
-
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 
 .liveLinks {
     height: 50px;
@@ -158,17 +160,27 @@ nav {
     padding-bottom: 30px;
 }
 
+.tagline {
+  max-width: 60%;
+  height: 33%;
+
+}
+
 .aboutBox {
     color: white;
     text-align: center;
     letter-spacing: 1px;
-    display: table;
-        
+    display: table-cell;
+   width: 50%;
+   float: left;
     border-style: solid;
     border-width: 5px;
     margin: 10px;
 
+
 }
+
+
 
 .aboutMeNum {
     text-align: left;
@@ -209,6 +221,7 @@ nav {
 
 .whatIDoList {
     list-style: none;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 0px;
     color: white;
@@ -256,7 +269,19 @@ li {
 
 @media screen and (max-width: 450px) {
 
+.aboutBox {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table-cell;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    width: 100%;
 
+
+
+}
 
     nav {
         position: absolute;
@@ -272,7 +297,7 @@ li {
     }
 
     .menuDrop {
-        font-family: 'Orbitron', sans-seri;
+      
         text-align: right;
     }
 
@@ -285,7 +310,21 @@ li {
 
 @media screen and (min-width: 451px) {
     
+  .aboutBox {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table-cell;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    width: 100%;
+    
+
+
+}
   
+    
 
     nav {
         position: absolute;
