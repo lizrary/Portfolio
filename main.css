@@ -5,16 +5,19 @@
 body {
   text-align: center;
   line-height: 1.5;
-   background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80") no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: 'Roboto', sans-serif;
+   background-image: url("https://images.unsplash.com/photo-1546405489-12bea0e6d80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80"); 
+   filter: blur;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-cover: 100%;
+  font-family: 'Gravitas One', cursive;
   color: white;
   text-shadow: 1em;
-  margin: 20px;
+  margin: 50px;
+  height: 100%;
 }
+
+
 
 
 div.image {
@@ -23,7 +26,7 @@ div.image {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+}​
 
 
 
@@ -35,7 +38,7 @@ div.image {
     margin-bottom: 5px;
     height: 20px;
     width: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+ 
 }
 
 .menuTwo {
@@ -44,7 +47,7 @@ div.image {
     margin-bottom: 5px;
     height: 20px;
     width: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tagbox {
@@ -54,8 +57,7 @@ div.image {
     text-align: center;
     letter-spacing: 1px;
     display: table;
-    font-family: font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+  
 }
 
 .introTag {
@@ -63,25 +65,50 @@ div.image {
    text-align: center;
    vertical-align: middle;
    padding-bottom: 15px;
-   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   padding: 25px;
+   
 }
 
-
+ 
 
 #projects {
      
       width: 100%;
+    
     color: white;
     text-align: center;
     letter-spacing: 1px;
     display: table;
-        border-style: solid;
-     border-width: 10px;
     margin: 10px;
+    font-style: normal;
+
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+   
 }
 
+ul.navlink {
 
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+   
+    
+    
 
+}
+
+nav {
+  color: white;
+  background-color: #7CF0BD;
+  opacity: 0.5;
+   padding: 14px 16px;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 0%;
+}
 
 
 
@@ -132,13 +159,13 @@ div.image {
 }
 
 .aboutBox {
-    width: 100%;
     color: white;
     text-align: center;
     letter-spacing: 1px;
     display: table;
+        
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     margin: 10px;
 
 }
@@ -163,9 +190,10 @@ div.image {
 
 .about {
     width: 100%;
+  
     padding-top: 10%;
     border-width: 10px;
-    border-style: solid;
+        border-style: solid;
 }
 
 .whatIDo {
@@ -174,8 +202,8 @@ div.image {
     text-align: center;
     letter-spacing: 1px;
     display: table;
-    border-width: 10px;
-    border-style: solid;
+      border-width: 10px;
+        border-style: solid;
     margin: 10px;
 }
 
@@ -200,6 +228,14 @@ li {
 .contact {
     justify-content: space-between;
     padding-bottom: 30px;
+        list-style: none;
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
     
 }
 
@@ -208,6 +244,7 @@ li {
 .contactLogoImg {
     height: 30px;
     margin: 5px;
+    color: white;
      
 }
 
@@ -219,17 +256,7 @@ li {
 
 @media screen and (max-width: 450px) {
 
-body {
-  text-align: center;
-  line-height: 1.5;
-   background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-   background-repeat: no-repeat;
-   background-size: 100%;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  text-shadow: 1em;
-  margin: 20px;
-}
+
 
     nav {
         position: absolute;
@@ -245,7 +272,7 @@ body {
     }
 
     .menuDrop {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Orbitron', sans-seri;
         text-align: right;
     }
 
@@ -258,18 +285,7 @@ body {
 
 @media screen and (min-width: 451px) {
     
-    body {
-  text-align: center;
-  line-height: 1.5;
-   background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-   background-repeat: no-repeat;
-   background-size: 100%;
-  font-family: didact-gothic, sans-serif;
-  color: white;
-  text-shadow: 1em;
-  margin: 20px;
-}
-
+  
 
     nav {
         position: absolute;
@@ -293,17 +309,6 @@ body {
 
 
 @media screen and (min-width: 800px) {
-  body {
-  text-align: center;
-  line-height: 1.5;
-   background-image: url("https://images.unsplash.com/flagged/photo-1559762731-d0dd66ab7e10?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-   background-repeat: no-repeat;
-   background-size: 100%;
-  font-family: didact-gothic, sans-serif;
-  color: white;
-  text-shadow: 1em;
-  margin: 20px;
-}
 
     nav {
         position: fixed;
