@@ -5,12 +5,11 @@
 body {
   text-align: center;
   line-height: 1.5;
-   background-image: url("https://images.unsplash.com/photo-1546405489-12bea0e6d80f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80"); 
+   background-image: url("https://images.unsplash.com/photo-1500389783522-18c9d0d14cbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"); 
    filter: blur;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-cover: 100%;
-  font-family: 'Gravitas One', cursive;
   color: white;
   text-shadow: 1em;
   margin: 50px;
@@ -58,6 +57,20 @@ div.image {
     letter-spacing: 1px;
     display: table;
   
+
+}
+
+.aboutBox {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    display: table-cell;
+    width: 50%;
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    margin: 10px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .introTag {
@@ -65,17 +78,27 @@ div.image {
    text-align: center;
    vertical-align: middle;
    padding-bottom: 15px;
-   font-weight: bold;
    padding: 25px;
+   font-family: 'Abril Fatface', cursive;
    
+}
+
+.projectText {
+    text-align: left;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    letter-spacing: 1px;
+    line-height: 120%;
+    font-family: 'Lato', sans-serif;
 }
 
  
 
 #projects {
      
-      width: 100%;
-    
+    width: 100%;
+    font-family: 'Abril Fatface', cursive;
     color: white;
     text-align: center;
     letter-spacing: 1px;
@@ -102,7 +125,7 @@ ul.navlink {
 
 nav {
   color: white;
-  background-color: #7CF0BD;
+  background-color:#ffcc33;
   opacity: 0.5;
    padding: 14px 16px;
   text-decoration: none;
@@ -123,26 +146,7 @@ p {
 }
 
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
 
-	40% {
-		-webkit-transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		-webkit-transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-.liveLinks:hover {
-    animation: bounce 1s;
-}
 
 .projectText {
     text-align: left;
@@ -170,7 +174,7 @@ p {
     color: white;
     text-align: center;
     letter-spacing: 1px;
-    display: table-cell;
+    
    width: 50%;
    float: left;
     border-style: solid;
@@ -209,6 +213,7 @@ p {
 }
 
 .whatIDo {
+    font-family: 'Abril Fatface', cursive;
      width: 100%;
     color: white;
     text-align: center;
@@ -255,9 +260,10 @@ li {
 
 
 .contactLogoImg {
-    height: 30px;
+    height: 20%;
     margin: 5px;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      
 }
 
@@ -265,7 +271,9 @@ li {
 	transform: skew(-10deg);
 }
 
-
+.derbyApp {
+  display: block;
+}
 
 @media screen and (max-width: 450px) {
 
@@ -331,9 +339,7 @@ li {
         right: -1px;
     }
 
-    .navLink {
-        display: none;
-    }
+    
 
     .menuDrop {
        
